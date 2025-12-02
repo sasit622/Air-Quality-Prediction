@@ -118,33 +118,6 @@ streamlit run app.py
 
 The app will open automatically in your browser at `http://localhost:8501`
 
-## 📁 Project Structure
-```
-Air-Quality-Prediction/
-├── app.py                          # Main Streamlit application
-├── models/
-│   ├── linear_regression.pkl      # Trained Linear Regression model
-│   ├── lasso_regression.pkl       # Trained Lasso Regression model
-│   ├── svm_model.pkl              # Trained SVM model
-│   ├── bayesian_model.pkl         # Trained Bayesian Logistic model
-│   └── scaler.pkl                 # Feature scaler
-├── data/
-│   ├── city_day.csv               # Training dataset
-│   └── processed_data.csv         # Cleaned and preprocessed data
-├── notebooks/
-│   ├── data_exploration.ipynb     # EDA notebook
-│   ├── model_training.ipynb       # Model training experiments
-│   └── model_evaluation.ipynb     # Performance analysis
-├── utils/
-│   ├── preprocessing.py           # Data preprocessing functions
-│   ├── model_utils.py             # Model loading and prediction
-│   └── visualization.py           # Plotting functions
-├── images/                        # Screenshots and visualizations
-├── prediction_history.csv         # Saved predictions
-├── requirements.txt               # Python dependencies
-└── README.md
-```
-
 ## 🎯 How It Works
 
 ### **1. Data Collection**
