@@ -2,7 +2,7 @@
 
 A comprehensive machine learning application that predicts Air Quality Index (AQI) values and categorizes air quality based on pollutant concentrations. Built with multiple ML models including Linear Regression, Lasso Regression, SVM, and Bayesian Logistic Regression for accurate environmental monitoring.
 
-![Air Quality Dashboard](images/Regression.png)
+![Air Quality Dashboard](image/Regression.png)
 
 ## 🌟 Overview
 
@@ -69,18 +69,18 @@ The system analyzes six key pollutants:
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Dashboard Interface](images/Classification.png)
+![Dashboard Interface](image/Classification.png)
 
 ### Feature Coefficients
-![Feature Coefficients](images/Coeff.png)
+![Feature Coefficients](image/Coeff.png)
 *Shows the relative importance of each pollutant in AQI prediction*
 
 ### Model Performance
-![Model Comparison](images/Svm.png)
+![Model Comparison](image/Svm.png)
 *Comparison of different ML models across multiple metrics*
 
 ### Lasso Regression Analysis
-![Actual vs Predicted](images/lasso.png)
+![Actual vs Predicted](image/lasso.png)
 *Scatter plot showing prediction accuracy*
 
 ## 🚀 Installation & Setup
@@ -257,7 +257,7 @@ Based on coefficient analysis:
 5. **NO2** - Low impact (coefficient: ~0.2)
 6. **Ozone** - Minimal impact (coefficient: ~0.05)
 
-![Feature Coefficients](images/feature-coefficients.png)
+![Feature Coefficients](image/Coeff.png)
 
 ## 🎨 User Interface Features
 
